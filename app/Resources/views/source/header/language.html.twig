@@ -1,0 +1,32 @@
+{%- set langEnglish = '<span class="flag-icon flag-icon-gr flag-icon-us"></span> ' ~ 'app.header.language.english'|trans -%}
+{%- set langPolish = '<span class="flag-icon flag-icon-gr flag-icon-pl"></span> ' ~ 'app.header.language.polish'|trans -%}
+
+<div class="language">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {%- if appLocale == "pl" -%}
+                {{- langPolish|raw -}}
+            {%- elseif appLocale == "en" -%}
+                {{- langEnglish|raw -}}
+            {%- else -%}
+                <i class="fa fa-language" aria-hidden="true"></i>
+                {{- 'app.header.language.title'|trans -}}
+            {%- endif -%}
+            <span class="caret"></span>
+        </button>
+        <ul class="language-dropdown dropdown-menu">
+            <li>
+                <a href="{{ path("app_homepage", {"_locale": "en"}) }}">
+                    <span class="flag-icon flag-icon-gr flag-icon-us"></span>
+                    {{- 'app.header.language.english'|trans -}}
+                </a>
+            </li>
+            <li>
+                <a href="{{ path("app_homepage", {"_locale": "pl"}) }}">
+                    <span class="flag-icon flag-icon-gr flag-icon-pl"></span>
+                    {{- 'app.header.language.polish'|trans -}}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

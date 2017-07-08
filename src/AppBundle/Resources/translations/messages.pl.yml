@@ -1,0 +1,60 @@
+app:
+  homepage:
+    landingPage:
+      text: <i>Strimi</i> to platforma social media oparta na Steem </br>i systemie blockchain. Tutaj <strong>każdy</strong> może <strong>zarabiać</strong>.
+      button:
+        get: Sprzedaj Steem
+        explore: Odkryj Steem
+    movement:
+      title: Dołącz do społeczności
+      posting:
+        title: Publikuj i zarabiaj
+        text: Zarabiaj na wartościowych treściach, które publikujesz dla innych Użytkowników.
+      curation:
+        title: Oceniaj i zarabiaj
+        text: Głosuj na popularne treści i otrzymuj za to Steem.
+      commitment:
+        title: Angażuj się i zarabiaj
+        text: Steem nagradza za aktywne zaangażowanie!
+      savings:
+        title: Oszczędzaj i zarabiaj
+        text: Steem Dollary dają Ci stabilizację.
+    video:
+      title: Zobacz film
+    whitePaper:
+      title: Transparentność Steem
+      text: Treści wygenerowane przez Użytkowników na portalach społecznościowych takich jak Facebook, Twitter czy Reddit dają obecnie właścicielom tych platform miliardowe dochody, a samym Użytkownikom żadne lub bardzo znikome. Steem wspiera rozwój social mediów i internetowych społeczności poprzez wynagradzanie Osób, które publikują ciekawe i wartościowe treści. To właśnie Oni zarabiają na swoich treściach.
+      download: Pobierz dokument
+    exchanges:
+      title: Giełdy
+      text: Poprzez aktywność w serwisach opartych o blockchain Steem, zdobywasz kryptowaluty Steem oraz Steem Dollar. </br>Możesz je sprzedać na wielu giełdach kryptowalutowych:
+    faq:
+      title: Często Zadawane Pytania
+      question_1:
+        q: W jaki sposób Steem różni się od innych platform, gdzie można dawać i dostawać napiwki?
+        a: Platformy oparte na napiwkach dawanych w kryptowalutach wymagają od użytkownika wkładu własnego, by mógł wynagradzać inne osoby kryptowalutami. Na platformach opartych na blockchainie Steem wynagradzanie innych odbywa się bez kosztów własnych i jest tak proste jak głosowanie na ich posty czy komentarze, dokładnie tak jak na Facebooku czy na Reddicie.
+      question_2:
+        q: Jak zarabiają twórcy treści?
+        a: Za wartościową treść, która została opublikowana i doceniona przez innych Użytkowników (czyli głosowali na nią) Steem blockchain rozdziela nagrodę po 7 dniach od daty jej publikacji. Z tej nagrody około 25% otrzymują Użytkownicy, którzy głosowali na tę treść, a pozostałe 75% jest dla samego autora. Te 75% dla autora jest dzielone na pół: pierwsza połowa w Steem Power i druga połowa w Steem Dollarach.
+      question_3:
+        q: Dlaczego Steem?
+        a: Steem to nie nazwa serwisu internetowego, lecz sieci blockchain (bazy danych z wbudowanym systemem płatności), posiadającej własną kryptowalutę - Steem. Nazwa sieci to gra słów. Z angielskiego, "to esteem" oznacza "szanować/poważać". Steem jest także homofonem angielskiego słowa Steam (po polsku "para"), które często jest wiązane z mocą i siłą. To właśnie para i silnik parowy stanowiły podstawę rewolucji przemysłowej w XVIII wieku. Angielskie idiomy jak "this conversation is picking up steam" również odnoszą się do pary. Te konotacje sprawiły, że wybór nazwy Steem wydaje się jak najbardziej właściwy.
+    forWho:
+      title: Dla kogo jest Strimi?
+      entrepreneurs:
+        title: Przedsiębiorcy
+        text: Kupuj i sprzedawaj Steem Dollary na całym świecie bez ograniczeń.
+      contentCreators:
+        title: Twórcy treści
+        text: Publikuj wysokiej jakości treści, by móc na nich zariabiać w Steem Power i w Steem Dollarach.
+      readers:
+        title: Czytelnicy
+        text: Czytaj nowe treści i głosuj na najlepsze, aby zdobywać Steem Power i Steem Dollary.
+      traders:
+        title: Traderzy
+        text: Masz szerokie możliwości handlu 24 godziny na dobę i 7 dni w tygodniu.
+      socialMediaSites:
+        title: Serwisy społecznościowe
+        text: Dodawaj swoje posty na strony społecznościowe, aby móc zarabiać na swoich treściach.
+    press:
+      title: Prasa o Steem

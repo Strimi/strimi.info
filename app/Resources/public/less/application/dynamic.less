@@ -1,0 +1,14 @@
+.border(@radius: 3) {
+  -webkit-border-radius: ~"@{radius}px";
+  -moz-border-radius: ~"@{radius}px";
+  border-radius: ~"@{radius}px";
+}
+
+.trans(@second: 0.2s) {
+  -o-transition: all @second linear;
+  -moz-transition: all @second linear;
+  -khtml-transition: all @second linear;
+  -webkit-transition: all @second linear;
+  -ms-transition: all @second linear;
+  transition: all @second linear;
+}

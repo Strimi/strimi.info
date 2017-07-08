@@ -1,0 +1,48 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <a href="{{- path('app_homepage') -}}" class="logo header">
+                    <img src="/images/icons/steem-icon-typo.svg" alt="" >
+                </a>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-9 text-right">
+                <div id="menuNavbar" class="menu">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#join" class="menu-item" data-id="join">
+                                {{- 'app.header.menu.join'|trans -}}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#video" class="menu-item" data-id="video">
+                                {{- 'app.header.menu.video'|trans -}}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#whitePaper" class="menu-item" data-id="whitePaper">
+                                {{- 'app.header.menu.whitePaper'|trans -}}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#exchanges" class="menu-item" data-id="exchanges">
+                                {{- 'app.header.menu.exchanges'|trans -}}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#forWho" class="menu-item" data-id="forWho">
+                                {{- 'app.header.menu.rewards'|trans -}}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#faq" class="menu-item" data-id="faq">
+                                {{- 'app.header.menu.faq'|trans -}}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                {%- include ':source/header:language.html.twig' -%}
+            </div>
+        </div>
+    </div>
+</header>

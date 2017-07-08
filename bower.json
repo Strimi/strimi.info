@@ -1,0 +1,39 @@
+{
+  "name": "strimi",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fontawesome": "master",
+    "moment": "^2.17.1",
+    "flag-icon-css": "^2.8.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "js/modal.js",
+        "js/tooltip.js",
+        "js/popover.js"
+      ]
+    },
+    "jquery": {
+      "main": "dist/jquery.min.js"
+    }
+  },
+  "version": "1",
+  "authors": [
+    "Strimi.pl <kontakt@strimi.pl>"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/components"
+  ],
+  "devDependencies": {
+    "fontawesome": "master",
+    "jquery": "~1.12.0",
+    "moment": "^2.17.1",
+    "normalize-css": "^5.0.0",
+    "bootstrap": "^3.3.7",
+    "flag-icon-css": "^2.8.0"
+  }
+}

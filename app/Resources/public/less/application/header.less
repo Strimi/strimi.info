@@ -1,0 +1,125 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: ~"@{headerHeight}px";
+  background-color: @white;
+  box-shadow: 0 0 5px 0 fade(@black, 20%);
+  z-index: 1;
+
+  .language,
+  .menu {
+    display: inline-block;
+    height: 31px;
+  }
+
+  .menu {
+
+    ul {
+      display: inline-block;
+      padding-left: 0;
+      margin-bottom: 0;
+
+      li {
+        background-color: transparent;
+        display: inline-block;
+        list-style: none;
+        padding-left: 0;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 20px;
+        text-align: center;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:hover,
+        &.active,
+        &:focus {
+          background-color: transparent;
+          position: relative;
+          color: @GlobalColor;
+
+          a {
+            background-color: transparent;
+            color: @GlobalColor;
+          }
+
+          &:after {
+            content: "";
+            position: absolute;
+            background-color: @orange;
+            height: 4px;
+            width: 100%;
+            display: block;
+            bottom: 0;
+          }
+        }
+
+        a {
+          background-color: transparent;
+          color:  @text54;
+          text-decoration: none;
+          line-height: ~"@{headerHeight}px";
+          &:hover,
+          &.active,
+          &:focus {
+            background-color: transparent;
+          }
+        }
+
+      }
+    }
+  }
+
+  .language {
+    margin-left: 20px;
+    text-decoration: none;
+    line-height: ~"@{headerHeight}px";
+
+    .flag-icon {
+      max-height: 11px;
+    }
+
+    .btn {
+      font-size: 14px;
+      font-weight: 500;
+      color:  @text54;
+
+      &.btn-default {
+        border-color: fade(@text54, 8%);
+      }
+
+      .flag-icon,
+      .fa-language {
+        margin-right: 10px;
+      }
+
+      .caret {
+        margin-left: 10px;
+        color:  @text54;
+        opacity: .5;
+      }
+
+    }
+
+    a {
+      margin-right: 15px;
+      color:  @text54;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .flag-icon {
+        margin-right: 10px;
+      }
+
+    }
+
+  }
+
+}

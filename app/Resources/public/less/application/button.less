@@ -1,0 +1,89 @@
+.btn {
+  .border(@radius: 2);
+  &:hover {
+    .trans(@second: 0.2s);
+  }
+}
+
+.btn-primary,
+.btn-black,
+.btn-green {
+  font-weight: normal;
+}
+
+.btn-primary {
+
+  background-color: @btn-primary;
+  border-color: fade(@brnPrimaryBorder, 10%) fade(@brnPrimaryBorder, 10%) fade(@brnPrimaryBorder, 30%);
+  box-shadow: 0 1px 1px fade(@brnPrimaryBorder, 20%);
+
+  &:hover,
+  &:focus,
+  &:active {
+    .trans(@second: 0.2s);
+    background-color: darken(@btn-primary, 3%);
+    border-color: darken(@btn-primary, 3%);
+  }
+
+  &.btn-login-page {
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  &.btn-login-new-account {
+    background-color: transparent;
+    border-color: @btn-primary;
+    box-shadow: none;
+    color: @btn-primary;
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+
+    &:hover,
+    &:focus {
+      .trans(@second: 0.2s);
+      background-color: @white;
+      border-color: @btn-primary;
+      color: @btn-primary;
+    }
+
+  }
+
+}
+
+.btn-black {
+
+  background-color: @black;
+  border-color: @black;
+  color: @white;
+
+  &:hover,
+  &:focus {
+    .trans(@second: 0.2s);
+    color: @white;
+    background-color: fade(@black, 87%);
+    border-color: fade(@black, 87%);
+  }
+
+}
+
+.btn-green {
+
+  background-color: @greenBase;
+  border-color: @greenBase;
+  color: @white;
+
+  &:hover,
+  &:focus {
+    .trans(@second: 0.2s);
+    color: @white;
+    background-color: fade(@greenBase, 87%);
+    border-color: fade(@greenBase, 87%);
+  }
+
+}

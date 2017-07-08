@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-who-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ico-frontpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico-who-1">
+            <g id="Group-210-Copy" transform="translate(16.000000, 15.000000)">
+                <path d="M64.4014,32.334 C64.4014,50.008 50.0754,64.334 32.4014,64.334 C14.7274,64.334 0.4014,50.008 0.4014,32.334 C0.4014,14.66 14.7274,0.334 32.4014,0.334 C50.0754,0.334 64.4014,14.66 64.4014,32.334" id="Fill-154" fill="#EEF1F6"></path>
+                <path d="M58.4014,64.334 L58.4014,53.334 C58.4014,47.259 53.4014,45.334 47.4014,43.334 C47.4014,43.334 38.4014,40.334 38.4014,38.334 L26.4014,38.334 C26.4014,40.334 17.4014,43.334 17.4014,43.334 C11.4014,45.334 6.4014,47.259 6.4014,53.334 L6.4014,64.334 L58.4014,64.334 Z" id="Fill-156" fill="#CFD7E6"></path>
+                <polygon id="Fill-158" fill="#FFFFFF" points="40.4014 40.334 32.4014 48.334 24.4014 40.334 26.4014 38.334 38.4014 38.334"></polygon>
+                <polygon id="Fill-160" fill="#FFFFFF" points="20.4014 64.334 16.4014 64.334 16.4014 44.334 20.4014 42.334"></polygon>
+                <path d="M16.4014,44.334 L16.4014,64.334" id="Stroke-162" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M20.4014,42.334 L20.4014,64.334" id="Stroke-164" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <polygon id="Fill-166" fill="#FFFFFF" points="44.4014 64.334 48.4014 64.334 48.4014 44.334 44.4014 42.334"></polygon>
+                <path d="M48.4014,44.334 L48.4014,64.334" id="Stroke-168" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M44.4014,42.334 L44.4014,64.334" id="Stroke-170" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M26.4014,38.334 C26.4014,40.334 17.4014,43.334 17.4014,43.334 C11.4014,45.334 6.4014,47.259 6.4014,53.334 L6.4014,64.334" id="Stroke-172" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M38.4014,38.334 C38.4014,40.334 47.4014,43.334 47.4014,43.334 C53.4014,45.334 58.4014,47.259 58.4014,53.334 L58.4014,64.334" id="Stroke-174" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M43.4014,13.334 L43.4014,30.334 C43.4014,35.334 39.4014,40.334 32.4014,40.334 C25.4014,40.334 21.4014,35.334 21.4014,30.334 L21.4014,13.334 L43.4014,13.334 Z" id="Fill-176" fill="#FFFFFF"></path>
+                <path d="M21.4014,14.334 L21.4014,9.334 L19.4014,7.334 L19.4014,5.334 L39.4014,5.334 C41.6104,5.334 43.4014,7.125 43.4014,9.334 L43.4014,16.334 L38.4014,14.334 L28.4014,14.334 L25.4014,12.334 L24.4014,14.334 L21.4014,14.334 Z" id="Fill-178" fill="#FFC469"></path>
+                <path d="M21.4014,14.334 L21.4014,9.334 L19.4014,7.334 L19.4014,5.334 L39.4014,5.334 C41.6104,5.334 43.4014,7.125 43.4014,9.334 L43.4014,16.334 L38.4014,14.334 L28.4014,14.334 L25.4014,12.334 L24.4014,14.334 L21.4014,14.334 L21.4014,14.334 Z" id="Stroke-180" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M37.4014,32.334 L35.4014,28.334 L30.4014,28.334 L28.4014,32.334 C28.4014,32.334 21.4014,29.334 21.4014,22.334 L21.4014,30.334 C21.4014,35.334 25.4014,40.334 32.4014,40.334 C39.4014,40.334 43.4014,35.334 43.4014,30.334 L43.4014,22.334 C43.4014,29.334 37.4014,32.334 37.4014,32.334" id="Fill-182" fill="#FFC469"></path>
+                <path d="M43.4014,22.334 C43.4014,29.334 37.4014,32.334 37.4014,32.334 L35.4014,28.334 L30.4014,28.334 L28.4014,32.334 C28.4014,32.334 21.4014,29.334 21.4014,22.334" id="Stroke-184" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M43.4014,18.334 L43.4014,30.334 C43.4014,35.334 39.4014,40.334 32.4014,40.334 C25.4014,40.334 21.4014,35.334 21.4014,30.334 L21.4014,16.334" id="Stroke-186" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M30.4014,21.334 C30.4014,22.99 29.0574,24.334 27.4014,24.334 C25.7454,24.334 24.4014,22.99 24.4014,21.334 C24.4014,19.678 25.7454,18.334 27.4014,18.334 C29.0574,18.334 30.4014,19.678 30.4014,21.334 L30.4014,21.334 Z" id="Stroke-188" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M40.4014,21.334 C40.4014,22.99 39.0574,24.334 37.4014,24.334 C35.7454,24.334 34.4014,22.99 34.4014,21.334 C34.4014,19.678 35.7454,18.334 37.4014,18.334 C39.0574,18.334 40.4014,19.678 40.4014,21.334 L40.4014,21.334 Z" id="Stroke-190" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M24.4014,21.334 L21.4014,21.334" id="Stroke-192" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M40.4014,21.334 L43.4014,21.334" id="Stroke-194" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M30.4014,21.334 L34.4014,21.334" id="Stroke-196" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <polyline id="Stroke-198" stroke="#4D6892" stroke-width="2" stroke-linejoin="round" points="40.4014 40.334 32.4014 48.334 24.4014 40.334"></polyline>
+                <polygon id="Fill-200" fill="#4BA2F2" points="37.4014 51.334 32.4014 48.334 27.4014 51.334 24.4014 51.334 24.4014 45.334 27.4014 45.334 32.4014 48.334 37.4014 45.334 40.4014 45.334 40.4014 51.334"></polygon>
+                <polygon id="Stroke-202" stroke="#4D6892" stroke-width="2" stroke-linejoin="round" points="37.4014 51.334 32.4014 48.334 27.4014 51.334 24.4014 51.334 24.4014 45.334 27.4014 45.334 32.4014 48.334 37.4014 45.334 40.4014 45.334 40.4014 51.334"></polygon>
+                <path d="M32.4014,52.334 L32.4014,54.334" id="Stroke-204" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M32.4014,56.334 L32.4014,58.334" id="Stroke-206" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M32.4014,60.334 L32.4014,62.334" id="Stroke-208" stroke="#4D6892" stroke-width="2" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

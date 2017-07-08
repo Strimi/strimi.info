@@ -1,0 +1,79 @@
+.box {
+
+  background-color: @white;
+  box-shadow: @boxShadow;
+  overflow: hidden;
+
+  &.login,
+  &.resetPassword {
+
+    .border(@radius: 2);
+    box-shadow: none;
+    border: 1px solid #bcd5f5;
+    //box-shadow: 0 5px 8px 0px rgba(52, 65, 108, 0.25);
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    .loginForm {
+      overflow: hidden;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      color: @black;
+      margin-bottom: 30px;
+    }
+
+    .alert {
+      line-height: 20px;
+    }
+
+    .loginForm {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .passwordRecovery {
+      font-size: 14px;
+      margin-bottom: 25px;
+      display: inline-block;
+    }
+
+    .newAccount {
+
+      background-color: fade(@text38, 5%);
+      margin-top: 35px;
+      padding: 20px;
+      overflow: hidden;
+
+      .titleAccount {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 15px;
+        color: @text54;
+      }
+
+    }
+
+  }
+
+  &.resetPassword {
+    padding-bottom: 15px;
+
+    .g-recaptcha {
+      margin-bottom: 15px;
+      display: inline-block;
+
+      transform:scale(0.99);
+      -webkit-transform:scale(0.99);
+      transform-origin:0 0;
+      -webkit-transform-origin:0 0;
+
+    }
+
+  }
+
+}

@@ -1,0 +1,38 @@
+input,
+.form-control {
+
+  .border(@radius: 2);
+  box-shadow: none;
+  font-size: 16px;
+
+  &:hover,
+  &:focus {
+    border-color: @blueBase;
+    box-shadow: none;
+    transition: all 0.5s linear;
+  }
+
+  &.alert {
+    border-color: @alert-red;
+  }
+
+}
+
+.input-base {
+
+  &.login,
+  &.resetPassword{
+    input {
+      height: 48px;
+      margin-bottom: 15px;
+
+      &#password {
+        margin-bottom: 15px;
+      }
+
+    }
+  }
+
+}
+
+

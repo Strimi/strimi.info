@@ -1,0 +1,59 @@
+app:
+  homepage:
+    landingPage:
+      text: <i>Strimi</i> is a part of Steem a blockchain-based social media platform where <strong>anyone</strong> can earn <strong>rewards</strong>.
+      button:
+        get: Get Steem
+        explore: Explore Steem
+    movement:
+      title: Join the movement
+      posting:
+        title: Posting Rewards
+        text: Earn STEEM every time you post content valued by others.
+      curation:
+        title: Curation Rewards
+        text: Earn STEEM by being the first to upvote popular content.
+      commitment:
+        title: Commitment Rewards
+        text: Steem rewards long-term commitment!
+      savings:
+        title: Savings Rewards
+        text: Steem Dollar rewards bring stability to you.
+    video:
+      title: Watch the video
+    whitePaper:
+      title: Steem White Paper
+      text: Collectively, user-generated content has created billions of dollars worth of value for the shareholders of social media companies, such as Reddit, Facebook, and Twitter. Steem supports social media and online communities by returning much of its value to the people who provide contributions by rewarding them with virtual currency.
+      download: Download
+    exchanges:
+      title: Exchanges
+    faq:
+      title: Frequently Asked Questions
+      question_1:
+        q: How is Steem different from tipping platforms?
+        a: Cryptocurrency tipping platforms require users to give something up to reward other for their contributions.  With Steem, rewarding others is as simple as voting for a post, such you may on Reddit, or as you would Like a post on Facebook.
+      question_2:
+        q: How are content creators and curators paid?
+        a: The blockchain distributes payouts as 50% Steem Power for voting and 50% Steem Dollars. Rewards are distributed by the blockchain, similar to how miners are paid by Bitcoin, and occur roughly 24 hours after content and votes have been submitted.
+      question_3:
+        q: Why Steem?
+        a: Steem is a form of esteem, which means to prize or value. Steem is also a homophone for steam, which is frequently associated with power, and a step further, steam powered trains gave influence to English idioms, such as ‘this conversation is picking up steam.’ The associations with prizing, language and empowerment only felt right.
+    forWho:
+      title: Who should Strimi?
+      entrepreneurs:
+        title: Entrepreneurs
+        text: Take advantage of bringing Steem Dollars to parts of the world that need stability.
+      contentCreators:
+        title: Content Creators
+        text: Be appreciated for the quality of your work by the people you want to reach.
+      readers:
+        title: Readers
+        text: Read through new posts and identify the best content to earn Steem Power and Steem Dollars.
+      traders:
+        title: Traders
+        text: Earn the spread by helping make the market between Steem and Steem Dollars on the blockchain-based decentralized exchange.
+      socialMediaSites:
+        title: Social Media Sites
+        text: Integrate Steem to give your users the opportunity to earn for their posts and their time on your site.
+    press:
+      title: In the press

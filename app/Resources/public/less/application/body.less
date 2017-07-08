@@ -1,0 +1,404 @@
+body {
+  position: relative;
+  background-color: @bodyBackground;
+  font-family: @fontRoboto;
+  color: @GlobalColor;
+  font-size: 14px;
+  line-height: 16px;
+
+  .container-full {
+    width: 100%;
+  }
+
+  .wrapper {
+
+    &.clear-padding {
+      padding-top: 0;
+    }
+
+    .landing,
+    .movement,
+    .video,
+    .whitePaper,
+    .exchanges,
+    .faq,
+    .forWho,
+    .press {
+      h2 {
+
+        position: relative;
+        font-size: 37px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+
+        &:after {
+          position: absolute;
+          content: "";
+          background-color: @orange;
+          height: 2px;
+          width: 128px;
+          display: block;
+          left: 0;
+          right: 0;
+          bottom: -16px;
+          margin: auto;
+        }
+
+      }
+    }
+
+    .landing {
+      position: relative;
+      background-color: @wrapperHomepageBackground;
+      color: @wrapperHomepageText;
+      height: ~"@{wrapperHomepageHeight}px";
+      padding-top: ~"@{wrapperPadding}px";
+      overflow: hidden;
+
+      &:before {
+        position: absolute;
+        background-image: url("/images/floor.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        content: "";
+        width: 100%;
+        height: ~"@{wrapperHomepageHeight}px";
+        top: 0;
+        overflow: hidden;
+        opacity: .7;
+      }
+
+      &:after {
+        position: absolute;
+        background-image: url("/images/bg/steem-phone.svg");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        content: "";
+        width: 100%;
+        height: 120px;
+        bottom: 0;
+        overflow: hidden;
+      }
+
+      .welcome {
+        position: relative;
+        max-width: 945px;
+        display: inline-block;
+        line-height: 50px;
+        font-size: 37px;
+        font-weight: 300;
+        margin-top: 20px;
+
+        strong {
+          font-weight: 400;
+        }
+
+        &:after {
+          position: absolute;
+          content: "";
+          background-color: @orange;
+          height: 2px;
+          width: 128px;
+          display: block;
+          left: 0;
+          right: 0;
+          bottom: -16px;
+          margin: auto;
+        }
+      }
+
+      .btn-homepage {
+        display: inline-block;
+        margin-top: 95px;
+        .btn {
+          padding: 10px 24px;
+        }
+      }
+
+      .mouse {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-top: 85px;
+
+        .scroll-downs {
+          position: absolute;
+          display: block;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto;
+          width: 21px;
+          height: 40px;
+        }
+
+        .mousey {
+          width: 21px;
+          padding-left: 7px;
+          padding-top: 2px;
+          height: 40px;
+          border: 2px solid @wrapperHomepageText;
+          border-radius: 25px;
+          opacity: .85;
+        }
+
+        .scroller {
+          width: 3px;
+          height: 10px;
+          border-radius: 25%;
+          background-color: @orange;
+          animation-name: scroll;
+          animation-duration: 2.2s;
+          animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+          animation-iteration-count: infinite;
+        }
+
+        @keyframes scroll {
+          0% { opacity: 0; }
+          10% { transform: translateY(0); opacity: 1; }
+          100% { transform: translateY(15px); opacity: 0;}
+        }
+
+        .arrow {
+          position: relative;
+          display: inline-block;
+          width: 100%;
+          opacity: .85;
+
+          .fa {
+            animation-name: scroll;
+            animation-duration: 2.2s;
+            animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+            animation-iteration-count: infinite;
+            position: absolute;
+            font-size: 24px;
+            top: 15px;
+            right: 0;
+            left: 0;
+          }
+
+        }
+
+      }
+
+    }
+
+    .movement,
+    .video,
+    .whitePaper,
+    .exchanges,
+    .faq,
+    .forWho,
+    .press {
+      display: inline-block;
+      width: 100%;
+      padding-top: 80px;
+      padding-bottom: 80px;
+
+      h2 {
+        margin-bottom: 50px;
+      }
+
+      .movement-img {
+        display: block;
+        float: left;
+        margin-left: 80px;
+        margin-right: 25px;
+
+        &.commitment,
+        &.savings {
+          margin-top: 25px;
+        }
+
+      }
+
+      .movement-text {
+        display: inline-block;
+        max-width: 280px;
+
+        &.commitment,
+        &.savings {
+          margin-top: 25px;
+        }
+
+        .movement-name {
+          font-size: 16px;
+          line-height: 16px;
+          font-weight: 500;
+          display: block;
+          margin-top: 25px;
+          margin-bottom: 20px;
+        }
+        .movement-info {
+          font-size: 14px;
+          line-height: 22px;
+          font-weight: 400;
+        }
+
+      }
+
+    }
+
+    .video {
+      background-image: url("/images/bg/006.jpg");
+    }
+
+    .whitePaper {
+
+      .whitePaperImage {
+        display: inline-block;
+        width: 100%;
+        img {
+          margin: 0 auto;
+          margin-bottom: 35px;
+        }
+      }
+
+
+      .text {
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+        max-width: 1025px;
+      }
+
+      .btn {
+        padding: 10px 24px;
+        margin-top: 25px;
+      }
+
+    }
+
+    .exchanges {
+      background-color: @white;
+
+      .text {
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+        max-width: 1025px;
+        margin-bottom: 35px;
+        display: inline-block;
+      }
+
+      .single {
+        .border(@radius: 2);
+        border: 1px solid fade(@GlobalColor, 20%);
+        display: inline-block;
+        width: 100%;
+
+        &:hover {
+          .trans(@second: 0.2s);
+          border-color: @orange;
+        }
+
+        &.bittrex,
+        &.shapeshift {
+          margin-top: 30px;
+        }
+
+      }
+
+    }
+
+    .faq {
+
+      .single-question {
+        margin-bottom: 35px;
+
+        .question,
+        .answer {
+          width: 100%;
+          display: inline-block;
+        }
+
+        .question {
+          font-weight: 400;
+          font-size: 22px;
+          margin-bottom: 15px;
+        }
+
+        .answer {
+          font-size: 15px;
+          line-height: 28px;
+          font-weight: 300;
+        }
+
+      }
+
+    }
+
+    .forWho {
+      background-color: @white;
+
+      .singleFor {
+        text-align: center;
+        margin-bottom: 55px;
+
+        .singleFor-image {
+        }
+
+        .singleFor-title {
+          font-size: 16px;
+          line-height: 16px;
+          font-weight: 500;
+          display: block;
+          margin-top: 5px;
+          position: relative;
+          margin-bottom: 35px;
+
+          &:after {
+            position: absolute;
+            content: "";
+            background-color: fade(@GlobalColor, 30%);
+            height: 1px;
+            width: 128px;
+            display: block;
+            left: 0;
+            right: 0;
+            bottom: -16px;
+            margin: auto;
+          }
+
+
+        }
+        .singleFor-text {
+          font-size: 14px;
+          line-height: 22px;
+          font-weight: 400;
+          max-width: 310px;
+          margin: 0 auto;
+        }
+
+      }
+
+    }
+
+    .press {
+
+      .pressImage {
+        .border(@radius: 2);
+        background-color: @white;
+        border: 1px solid fade(@GlobalColor, 20%);
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+          .trans(@second: 0.2s);
+          border-color: @orange;
+        }
+
+        &.bittrex,
+        &.shapeshift {
+          margin-top: 30px;
+        }
+      }
+
+    }
+
+  }
+
+}

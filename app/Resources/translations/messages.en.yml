@@ -1,0 +1,33 @@
+app:
+  nameLowercase: strimi
+  nameUpercase: Strimi
+  nameLowercaseDomain: strimi.info
+  nameUpercaseDomain: Strimi.info
+
+  header:
+    language:
+      title: Language
+      english: English
+      polish: Polski
+    menu:
+      join: Join
+      video: Video
+      whitePaper: White Paper
+      faq: FAQ
+      rewards: Rewards
+      exchanges: Exchanges
+
+  footer:
+    rights: © 2016-%date% %site_name%
+    using:
+      name: Using Steem
+      documentation: Documentation
+      blockExplorer: Block Explorer
+      communityApp: Community App
+      github: Github
+    social:
+      name: Social Media
+      bitcointalk: Bitcointalk
+      facebook: Facebook
+      twitter: Twitter
+      chat: Chat

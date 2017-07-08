@@ -1,0 +1,42 @@
+.logo {
+  font-family: 'Baloo Bhaina', cursive;
+  color: @black;
+  font-size: 30px;
+  display: inline-block;
+
+  &:hover {
+    color: @black;
+    text-decoration: none;
+  }
+
+  &.header {
+    padding-top: 14px;
+
+    &.active {
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        background-color: @blueBase;
+        height: 3px;
+        width: 100%;
+        display: block;
+        top: 42px;
+      }
+
+      a {
+        color: @text;
+      }
+
+    }
+
+  }
+
+  &.login {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: @text54;
+  }
+
+}
